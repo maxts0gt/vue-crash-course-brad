@@ -14,6 +14,28 @@ export default {
       tasks: [],
     };
   },
+  created() {
+    this.tasks = [
+      {
+        id: 1,
+        text: 'Learn Vue',
+        day: '10 Feb 2022',
+        reminder: true,
+      },
+      {
+        id: 2,
+        text: 'Learn Nuxt',
+        day: '10 Feb 2022',
+        reminder: true,
+      },
+      {
+        id: 3,
+        text: 'Learn Tailwind',
+        day: '10 Feb 2022',
+        reminder: true,
+      },
+    ];
+  },
 };
 </script>
 
